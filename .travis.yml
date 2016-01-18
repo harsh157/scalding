@@ -99,3 +99,4 @@ matrix:
       - "scripts/test_typed_tutorials.sh"
       - "scripts/build_assembly_no_test.sh execution-tutorial"
       - "scripts/test_execution_tutorial.sh"
+
