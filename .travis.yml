@@ -3,7 +3,7 @@ jdk: oraclejdk7
 sudo: false
 before_install:
   - umask 0022
-  - sbt sbtVersion
+  - scala -version
 
 build_image: drydock/u12sca:tip
 cache:
