@@ -7,8 +7,9 @@ cache:
   directories:
    - $HOME/.scalding.dep.cache
 script:
-  - scripts/testValidator.sh
   - scripts/run-test.sh
+  - scripts/testValidator.sh
+  
 addons:
   apt:
     packages:
